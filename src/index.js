@@ -1,20 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import ReactDOM from 'react-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <div style={{
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
-
-      height: "100vh"
-    }}>
-      <App />
+function App() {
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>To-Do App</h1>
+      {/* Komponenten landen hier */}
     </div>
-  </React.StrictMode>
-);
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
