@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 function App() {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>To-Do App</h1>
-      {/* Komponenten landen hier */}
+      <h1>React Demo</h1>
+      {/* Test Test */}
     </div>
   );
 }
